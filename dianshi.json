@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan.txt;md5;81614a4982ac5fd02d64f075e87c9150",
+  "spider": "./jar/fan.txt;md5;bcaa35ff60c87f537cf509da3c40411e",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://logo.ugigc.dpdns.org/{name}.png"}
   ],
@@ -42,6 +42,11 @@
     {"key": "白蛇","name": "白蛇｜APP","type": 3,"quickSearch": 1,"api": "csp_AppGet","ext": {"url": "","site": "http://tengxunyunaliyun.oss-cn-shanghai.aliyuncs.com/tengxunyun.txt","dataKey": "n3l2tx5jdkp9s2c8","dataIv": "n3l2tx5jdkp9s2c8","deviceId": "","version": "361"},"jar": "./xiaosa/spider.jar;md5;185ad34bff1c1ffc80e40cf0c503d8fe"},
     {"key": "若惜","name": "若惜｜APP","type": 3,"quickSearch": 1,"api": "csp_AppGet","ext": {"url": "http://110.40.59.188:9527","dataKey": "ebad3f1a58b13933","dataIv": "ebad3f1a58b13933","deviceId": "","version": ""},"jar": "./xiaosa/spider.jar;md5;185ad34bff1c1ffc80e40cf0c503d8fe"},
     {"key": "移动","name": "移动｜APP","type": 3,"api": "csp_YD","searchable": 1,"quickSearch": 1,"style": {"type": "list"},"jar": "./xiaosa/spider.jar;md5;185ad34bff1c1ffc80e40cf0c503d8fe"},
+    {"key": "短剧屋","name": "短剧屋｜短剧","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./xiaosa/XYQHiker/短剧屋.json","jar": "./xiaosa/spider.jar;md5;185ad34bff1c1ffc80e40cf0c503d8fe"},
+    {"key": "农民影视","name": "农民｜影视","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./xiaosa/XYQHiker/农民影视.json","jar": "./xiaosa/spider.jar;md5;185ad34bff1c1ffc80e40cf0c503d8fe"},
+    {"key": "盒子影视","name": "盒子｜影视","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./xiaosa/XYQHiker/盒子影视.json","jar": "./xiaosa/spider.jar;md5;185ad34bff1c1ffc80e40cf0c503d8fe"},
+    {"key": "电影牛","name": "影牛｜影视","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./xiaosa/XYQHiker/电影牛.json","jar": "./xiaosa/spider.jar;md5;185ad34bff1c1ffc80e40cf0c503d8fe"},
+    {"key": "电影港","name": "电影港｜磁力","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./xiaosa/XYQHiker/电影港.json","jar": "./xiaosa/spider.jar;md5;185ad34bff1c1ffc80e40cf0c503d8fe"},
     {"key": "玩偶","name": "👽玩偶哥哥┃4K弹幕","type": 3,"api": "csp_WoGGGuard","timeout": 30,"searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt","from": "4k|auto","siteUrl": "https://www.wogg.com/","danMu": "弹"}},
     {"key": "YGP","name": "🚀叨观荐影┃预告片","type": 3,"api": "csp_YGPGuard","searchable": 0,"quickSearch": 0,"changeable": 0},
     {"key": "alllive","name": "📽️一直播┃直播","type": 3,"api": "csp_AllliveGuard","playerType": 2,"searchable": 0,"quickSearch": 0,"changeable": 0},
